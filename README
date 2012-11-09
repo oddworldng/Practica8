@@ -1,0 +1,23 @@
+####################################################
+#                                    ETSII - ULL   #
+#                                                  #
+#        Práctica de Laboratorio #7                #
+#      Autor: Andrés Nacimiento García             #
+#                                                  #
+#                           31 de Octubre de 2012  #
+####################################################
+
+PARA INSTALAR LAS GEMAS:
+sudo gem install rake
+sudo gem install rspec
+
+PARA EJECUTAR LAS PRUEBAS RSPECT:
+Comando: rspec -Ilib spec/nr_spec.rb (en el directorio raiz)
+
+PARA EJECUTAR LAS PRUEBAS:
+Comando: rake -T (en el directorio raíz) - Muestra la descripción de las tareas
+	
+	rake spec     # Run RSpec code examples
+	rake specman  # Run rspec with --format documentation
+	rake thtml    # Run rspec with format: html
+
